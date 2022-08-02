@@ -3,11 +3,53 @@
     .logo {
         padding-top: 20px;
     }
+
+    .section {
+        margin: 50px 0;
+    }
+    div#services{
+        padding: 40px;
+    }
 }
+
 
 /* Until Boostrap lg */
 @media only screen and (max-width: 992px) {
-    .row.header-top{
+    .row.header-top {
         padding: 20px 0 20px 0;
+    }
+    .section {
+        margin: 40px 0;
+    }
+    div#services{
+        padding: 20px;
+    }
+  
+}   
+
+/* mobile sizes */
+@media only screen and (max-width: 576px) {
+    .year{
+        display: none;
+    }
+    span.header-top-right{
+        float: none;
+    }
+    .about-header{
+        margin-bottom: 30px;
+    }
+    .content-section{
+        background-position: center;
+        padding: 30px;
+        background-size: cover;
+    }
+    .content-section-caption{
+        background-color: #fff;
+        width: 100%;
+        padding: 20px;
+    
+    }
+    .headerBold{
+        margin-bottom: 30px;
     }
 }

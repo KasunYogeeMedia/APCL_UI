@@ -1,6 +1,20 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.btn{
+    text-transform: uppercase;
+}
+.headerh1{
+    text-transform: uppercase;
+    color: rgb(104, 104, 104);
+}
+.sub-heading{
+    color: rgb(104, 104, 104);
+    margin: 20px 0;
+}
+.blue{
+    color: rgb(0, 110, 255);
+}
 /* Header Styles Start */
 .logo {
     padding-top: 10px;
@@ -37,9 +51,29 @@ a.header-mail{
 
 /* Header Styles End */
 
-/* Body Section styles Start */
+/* home section styles start*/
 .carousel-caption{
     bottom:30%;
 }
-/* Body Section styles End */
+.headerBold{
+    margin-bottom: 50px;
+}
+.content-section{
+    background-position: left;
+    padding: 50px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.content-section-caption{
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    margin-left: auto;
+
+}
+div#services{
+    background-color: rgb(209, 209, 209);
+    padding: 10%;
+}
+/* home section styles End */
 
