@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header Styles Start */
+.logo {
+    padding-top: 10px;
+}
+
+.row.header-top {
+    padding: 30px 0 20px 0;
+}
+
+span.year {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+}
+span.header-top-right{
+    float: right;
+}
+span.header-top-right a {
+    color: #000;
+    text-decoration: none;
+}
+a.header-mail{
+    color: rgb(199, 0, 0) !important;
+}
+.insta {
+    
+    padding: 0 5px;
+    margin-left: 20px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+/* Header Styles End */
+
+/* Body Section styles Start */
+.carousel-caption{
+    bottom:30%;
+}
+/* Body Section styles End */
+

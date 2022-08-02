@@ -1,0 +1,13 @@
+/* Boostrap lg */
+@media only screen and (min-width: 992px) {
+    .logo {
+        padding-top: 20px;
+    }
+}
+
+/* Until Boostrap lg */
+@media only screen and (max-width: 992px) {
+    .row.header-top{
+        padding: 20px 0 20px 0;
+    }
+}
