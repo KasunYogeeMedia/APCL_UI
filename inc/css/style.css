@@ -1,20 +1,25 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
-.btn{
+
+.btn {
     text-transform: uppercase;
 }
-.headerh1{
+
+.headerh1 {
     text-transform: uppercase;
-    color: rgb(104, 104, 104);
+    color: #000;
 }
-.sub-heading{
+
+.sub-heading {
     color: rgb(104, 104, 104);
     margin: 20px 0;
 }
-.blue{
+
+.blue {
     color: rgb(0, 110, 255);
 }
+
 /* Header Styles Start */
 .logo {
     padding-top: 10px;
@@ -29,18 +34,22 @@ span.year {
     font-weight: bold;
     color: rgb(65, 65, 65);
 }
-span.header-top-right{
+
+span.header-top-right {
     float: right;
 }
+
 span.header-top-right a {
     color: #000;
     text-decoration: none;
 }
-a.header-mail{
+
+a.header-mail {
     color: rgb(199, 0, 0) !important;
 }
+
 .insta {
-    
+
     padding: 0 5px;
     margin-left: 20px;
 }
@@ -52,28 +61,104 @@ a.header-mail{
 /* Header Styles End */
 
 /* home section styles start*/
-.carousel-caption{
-    bottom:30%;
+.carousel-caption {
+    bottom: 30%;
 }
-.headerBold{
+
+.headerBold {
     margin-bottom: 50px;
 }
-.content-section{
+
+.content-section {
     background-position: left;
     padding: 50px 0;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.content-section-caption{
+
+.content-section-caption {
     background-color: #fff;
     width: 60%;
     padding: 20px;
     margin-left: auto;
 
 }
-div#services{
+
+div#services {
     background-color: rgb(209, 209, 209);
     padding: 10%;
 }
-/* home section styles End */
 
+/* Card section */
+.cards-section {
+    padding-top: 40px;
+}
+
+.cards-section .card {
+    background-color: #0F5F9C;
+    padding-bottom: 50px;
+    margin: 20px 0;
+}
+
+.card-img {
+    width: 50%;
+    margin: 5% 10%;
+    border: 10px solid #8da7bb;
+    border-radius: 50%;
+    padding: 10px;
+    background: #cdcdcd;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.card-desc {
+    color: #fff;
+}
+
+.card-btn {
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
+    transform: translate(-50%, -50%);
+}
+
+.card-btn .btn-primary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+.card-btn .fa{
+    color: #000;
+}
+/* why-choose section */
+#why-choose{
+    margin-top: 0;
+}
+.wc-content{
+    padding-top: 100px;
+}
+.wc-list{
+    padding: 20px 0;
+}
+.wc-list ul li{
+    list-style-image: url(../img/list-icon.png) !important;
+    line-height: 2;
+}
+.wc-img-section{
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* our-clients section */
+.our-clients{
+    
+}
+/* home section styles End */

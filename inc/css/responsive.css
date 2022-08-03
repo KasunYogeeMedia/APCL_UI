@@ -5,10 +5,11 @@
     }
 
     .section {
-        margin: 50px 0;
+        margin: 70px 0;
     }
     div#services{
-        padding: 40px;
+        padding: 40px 60px 100px 60px;
+margin-bottom: 0;
     }
 }
 
@@ -24,14 +25,24 @@
     div#services{
         padding: 20px;
     }
-  
-}   
+    .headerh1{
+        text-align: center;
+    }
+    .wc-content{
+        padding-top: 30px;
+    }
+    .wc-img-section{
+        height: 300px;
+    }
+}
+   
 
 /* mobile sizes */
 @media only screen and (max-width: 576px) {
     .year{
         display: none;
     }
+
     span.header-top-right{
         float: none;
     }
@@ -51,5 +62,11 @@
     }
     .headerBold{
         margin-bottom: 30px;
+    }
+    .wc-content{
+        padding-top: 20px;
+    }
+    .wc-img-section{
+        height: 250px;
     }
 }
