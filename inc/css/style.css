@@ -237,3 +237,16 @@ div#our-clients {
     display: block;
 }
 /* home section styles End */
+/* Footer sec styles Start*/
+.footer-sec{
+    background-color: #fff;
+    margin-top: 200px;
+}
+.footer-menu table a{
+text-decoration: none;
+color: #000;
+}
+.footer-menu table a:hover{
+    color: rgb(0, 51, 192);
+    }
+/* Footer sec styles End*/
