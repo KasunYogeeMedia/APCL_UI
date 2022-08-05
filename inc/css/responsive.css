@@ -101,4 +101,7 @@
     .footer-menu table a {
         font-size: 12px;
     }
+    .mob-break{
+        display: inline;
+    }
 }

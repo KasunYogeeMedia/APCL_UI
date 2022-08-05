@@ -226,27 +226,58 @@ div#our-clients {
     padding: 6px 12px;
     border-top: none;
 }
+
 .dy-img,
-.dy-caption{
+.dy-caption {
     padding: 20px;
 }
-.dy-desc{
+
+.dy-desc {
     line-height: 2;
 }
-.dy-default{
+
+.dy-default {
     display: block;
 }
+
 /* home section styles End */
 /* Footer sec styles Start*/
-.footer-sec{
+.footer-top {
+    height: auto;
+    background-size: cover;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+}
+
+.footer-sec {
     background-color: #fff;
-    margin-top: 200px;
 }
-.footer-menu table a{
-text-decoration: none;
-color: #000;
+
+.footer-menu table a {
+    text-decoration: none;
+    color: #000;
 }
-.footer-menu table a:hover{
+
+.footer-menu table a:hover {
     color: rgb(0, 51, 192);
-    }
+}
+
+.footer-contact table {
+    width: 100%;
+}
+
+.footer-contact table .icon {
+    width: 30%;
+    text-align: center;
+}
+
+.footer-contact table .icon i {
+    margin: 10px;
+}
+
+.footer-contact table .details a {
+    text-decoration: none;
+    color: #000;
+}
+
 /* Footer sec styles End*/
