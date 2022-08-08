@@ -95,6 +95,12 @@
     .footer-menu table {
         display: none;
     }
+    div#diary{
+        padding-bottom: 0 !important;
+    }
+    .footer-menu.pt-4{
+        padding-top: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {

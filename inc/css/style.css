@@ -245,8 +245,9 @@ div#our-clients {
 .footer-top {
     height: auto;
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 300px;
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .footer-sec {
@@ -256,10 +257,15 @@ div#our-clients {
 .footer-menu table a {
     text-decoration: none;
     color: #000;
+    font-weight: bold;
 }
 
 .footer-menu table a:hover {
     color: rgb(0, 51, 192);
+}
+
+.footer-contact {
+    padding: 20px 0;
 }
 
 .footer-contact table {
@@ -273,6 +279,7 @@ div#our-clients {
 
 .footer-contact table .icon i {
     margin: 10px;
+    font-size: 30px;
 }
 
 .footer-contact table .details a {
@@ -280,4 +287,23 @@ div#our-clients {
     color: #000;
 }
 
+.footer-contact .border {
+    border: 4px solid #ff9700 !important;
+    width: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/* footer-bottom */
+.footer-bottom{
+    background-color: #013a66;
+}
+.footer-bottom span{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer-bottom span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 /* Footer sec styles End*/
