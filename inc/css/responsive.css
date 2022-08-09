@@ -45,7 +45,7 @@
 }
 
 @media only screen and (min-width: 576px) {
-    .dy-img{
+    .dy-img {
         min-width: 250px;
     }
 }
@@ -88,26 +88,62 @@
     .wc-img-section {
         height: 250px;
     }
-    .d-sec table td{
+
+    .d-sec table td {
         display: inline;
         text-align: center;
     }
+
     .footer-menu table {
         display: none;
     }
-    div#diary{
+
+    div#diary {
         padding-bottom: 0 !important;
     }
-    .footer-menu.pt-4{
+
+    .footer-menu.pt-4 {
         padding-top: 0 !important;
     }
 }
 
+/* upto boostrap md */
 @media only screen and (max-width: 768px) {
     .footer-menu table a {
         font-size: 12px;
     }
-    .mob-break{
+
+    .mob-break {
         display: inline;
     }
+
+    .msg-table td {
+        display: block;
+        text-align: center;
+    }
+
+    .msg-table .tr-2 {
+        display: flex;
+        flex-flow: column;
+    }
+    .msg-table .tr-2 .img-td {
+        order: 2;
+    }
+    .msg-table .tr-1 .img-td {
+        padding-bottom: 50px;
+    }
+}
+
+/* until boostrap md */
+@media only screen and (min-width: 768px) {
+    .msg-table .tr-1 .img-td {
+        text-align: end;
+        padding-left: 40px;
+    }
+
+    .msg-table .tr-2 .img-td {
+        text-align: start;
+        padding-right: 40px;
+    }
+
 }
