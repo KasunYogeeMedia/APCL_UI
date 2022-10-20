@@ -1,2 +1,3 @@
-RewriteEngine On
-RewriteCond %{HTTPS} !on
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^yogeemedia.xyz/websites/apcl [NC]
+RewriteRule ^(.*)$ https://www.yogeemedia.xyz/websites/apcl/$1 [L,R=301,NC]
